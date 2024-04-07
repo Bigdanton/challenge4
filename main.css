@@ -2,8 +2,38 @@ body {
   padding: 0;
   border: 0;
   margin: 0;
+  overscroll-behavior: none;
+  background-color: darkgray;
+  overflow: hidden;
 }
 
-.img {
-  width: 100px;
+h1 {
+  padding-left: 50%;
+  font-size: xx-large;
+  color: red;
+  padding-top: 10rem;
+}
+
+li {
+  position: absolute;
+  padding-left: 50px;
+}
+.portifolioItems {
+  padding-left: 200px;
+}
+.portifolioItems img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.mainList {
+  padding-top: 20rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.titles {
+  color: blue;
 }
