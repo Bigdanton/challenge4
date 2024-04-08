@@ -10,17 +10,17 @@ const portifolioItems = [
   {
     title: "SNABB FOOD",
     description: "We work to serve people with the best service",
-    image: "/foodora logo.jpeg",
+    image: "foodora logo.jpeg",
   },
   {
     title: "Item 1",
     description: "This is the way we package the food before delivery",
-    image: "/foodora image.webp",
+    image: "foodora image.webp",
   },
   {
     title: "Item 2",
     description: "With bykes it takes few minutes to reach our clients",
-    image: "/foodora byke.jpeg",
+    image: "foodora byke.jpeg",
   },
 ];
 
